@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.example.espoir"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg1"
+	android:fillViewport="true"
+	android:scrollbars="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="904dp"
+		android:gravity="center|top"
+		android:orientation="vertical" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/fullName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text=""
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="20dp" />
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_fullname1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/fullName1"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="textPersonName"
+					android:hint="Fullname"/>
+			</android.support.design.widget.TextInputLayout>
+
+			<requestFocus />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/email"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text=""
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="20dp" />
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_email1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/email1"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="textEmailAddress"
+					android:hint="Email"/>
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/phNum"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text=""
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="20dp" />
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_phNum1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/phNum1"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="phone"
+					android:hint="PhoneNumber"/>
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/userName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text=""
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="20dp" />
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_userName1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/userName1"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="textPersonName"
+					android:hint="Username"/>
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/password2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:text=""
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textSize="20dp" />
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_password3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/password3"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="textPassword"
+					android:hint="Password"/>
+			</android.support.design.widget.TextInputLayout>
+
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" ><TextView
+			android:id="@+id/password4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text=""
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textSize="20dp" />
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_password5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/password5"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="textPassword"
+					android:hint="Confirm Password"/>
+			</android.support.design.widget.TextInputLayout>	    	</LinearLayout>
+
+		<Button
+			android:id="@+id/submit"
+			android:layout_width="189dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="10dp"
+			android:text="Submit" />
+
+		<Button
+			android:id="@+id/logIn1"
+			android:layout_width="189dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="10dp"
+			android:text="Login" />
+
+
+
+	</LinearLayout>
+
+</ScrollView>

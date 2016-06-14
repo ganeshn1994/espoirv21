@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.espoir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+		  <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="904dp"
+	    android:gravity="center|top"
+	    android:orientation="vertical" >
+	    
+		       <TextView
+	        android:id="@+id/espoir"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:textSize="30dp"
+	        android:text="ESPOIR"/>
+		       
+		       
+	         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+		    <TextView
+	            android:id="@+id/area1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Area"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textSize="20dp" />
+		    </LinearLayout>
+
+	        <EditText
+	            android:id="@+id/area2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="50dp"
+	            android:layout_margin="20dp"
+	            android:ems="15" >
+	            
+	            
+	    			 <requestFocus />
+	        </EditText>
+	        	    
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Submit" />
+        
+    </LinearLayout>
+	
+
+</ScrollView>

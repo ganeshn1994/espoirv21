@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg1"
+	android:fillViewport="true"
+	android:scrollbars="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="904dp"
+		android:gravity="center|top"
+		android:orientation="vertical"
+		android:weightSum="1">
+
+		<TextView
+			android:id="@+id/espoir"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:textSize="30dp"
+			android:text="ESPOIR"/>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_username1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/username1"
+					android:layout_width="wrap_content"
+					android:layout_height="50dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:hint="Username"/>
+
+			</android.support.design.widget.TextInputLayout>
+
+
+
+			<requestFocus />
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/layout_password1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/password1"
+					android:layout_width="wrap_content"
+					android:layout_height="50dp"
+					android:layout_margin="20dp"
+					android:ems="15"
+					android:inputType="textPassword"
+					android:hint="Password"/>
+
+			</android.support.design.widget.TextInputLayout>
+		</LinearLayout>
+
+
+
+		<Button
+			android:id="@+id/logIn"
+			android:layout_width="250dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="10dp"
+			android:text="Login"
+			/>
+
+		<Button
+			android:id="@+id/reg"
+			android:layout_width="257dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginBottom="10dp"
+			android:text="Not Registered? Click Here" />
+
+		<Button
+
+			android:layout_width="180dp"
+			android:layout_height="wrap_content"
+			android:text="Login with google"
+			android:id="@+id/google"
+			android:layout_gravity="center_horizontal" />
+
+
+
+
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=""
+			android:id="@+id/textView"
+			android:layout_gravity="center_horizontal" />
+
+
+
+
+	</LinearLayout>
+
+
+
+
+</ScrollView>

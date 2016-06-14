@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="904dp"
+	    android:gravity="center|top"
+	    android:orientation="vertical" >
+
+        <!--<Button-->
+            <!--android:id="@+id/lodge"-->
+            <!--android:layout_width="204dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="170dp"-->
+            <!--android:text="Lodge a Complaint" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/view"-->
+            <!--android:layout_width="204dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="View Complaints" />-->
+
+
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fab"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="50dp"
+			android:src="@android:drawable/ic_input_add" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Lodge a Complaint"
+			android:id="@+id/textView2"
+			android:layout_gravity="center_horizontal" />
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/fab1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="100dp"
+			android:src="@android:drawable/ic_menu_view" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="View complaints"
+			android:id="@+id/textView3"
+			android:layout_gravity="center_horizontal" />
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

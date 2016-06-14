@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.espoir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="904dp"
+	    android:gravity="center|top"
+	    android:orientation="vertical"
+		android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="22dp"
+        android:textSize="20dp"
+        android:text="Select Department" />
+         <requestFocus />
+  
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt1"
+        android:layout_toLeftOf="@+id/txt" />
+    
+    
+    
+    	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp" >
+
+	        <TextView
+	            android:id="@+id/title1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Title"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textSize="20dp" />
+
+	        <EditText
+	            android:id="@+id/title2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="100dp"
+	            android:layout_margin="20dp"
+	            android:ems="15" >
+	        </EditText>
+
+	    </LinearLayout>
+
+
+
+
+		<Button
+	        android:id="@+id/getAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:text="Get Address From GPS" />
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp" >
+
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Address"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:textSize="20dp" />
+
+	        <EditText
+	            android:id="@+id/addressView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="100dp"
+	            android:layout_margin="20dp"
+	            android:ems="15" >
+	        </EditText>
+
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Latitude"
+	            android:textSize="20dp" />
+
+	        <EditText
+	            android:id="@+id/locView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="20dp"
+	            android:ems="15" />
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+			android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        <TextView
+	            android:id="@+id/textView7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Longitude"
+	            android:textSize="20dp" />
+
+	        <EditText
+	            android:id="@+id/locView5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="20dp"
+	            android:ems="15" />
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Landmark"
+	            android:textSize="20dp" />
+
+	        <EditText
+	            android:id="@+id/locView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="20dp"
+	            android:ems="15" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <TextView
+	            android:id="@+id/textView5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="Description"
+	            android:textSize="20dp" />
+
+	        <EditText
+	            android:id="@+id/description"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="20dp"
+	            android:ems="15" />
+	    </LinearLayout>
+	   
+	    <!-- Capture picture button -->
+
+        <Button
+            android:id="@+id/btnCapturePicture"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Take a Picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Preview"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+         <Button
+            android:id="@+id/submit1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Submit" />
+        
+	</LinearLayout>
+
+</ScrollView>
